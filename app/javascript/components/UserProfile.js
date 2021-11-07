@@ -58,7 +58,7 @@ class UserProfile extends Component {
   render() {
     return (
       <div>
-        <Paper zDepth={ 1 } className='paperOverride userProfilePaper' rounded={ false }>
+        <Paper className='paperOverride userProfilePaper' >
           { this.renderContent() }
         </Paper>
         { this.renderSnackBar() }
@@ -115,7 +115,6 @@ class UserProfile extends Component {
                     defaultMessage='Message User'
                   />
                 ) }
-                primary
               >Message User
               </Button>
             </Link>
@@ -198,7 +197,7 @@ class UserProfile extends Component {
     return (
       <div className='userProfileBackButton'>
         <Button
-          primary
+          color="primary"
           label={ (
             <FormattedMessage
               id='UserProfile.Back'

@@ -36,9 +36,7 @@ class ReviewContainer extends Component {
           <TextField
             name='comment'
             value={ comment }
-            hintText=''
-            errorText={ this.state.error }
-            errorStyle={ { float: 'left', margin: '-6px 0' } }
+            
             label={ (
               <FormattedMessage
                 id='ReviewContainer.comment'

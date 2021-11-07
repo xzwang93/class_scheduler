@@ -108,7 +108,7 @@ class UserProfile extends Component {
                 variant='contained'
                 className='userProfileMessageButton'
                 color="primary"
-                style={ {  bottom: '0px', right: '10px' } }
+                style={ {  top: '20px', right: '10px' } }
                 label={ (
                   <FormattedMessage
                     id='UserProfile.messageUser'

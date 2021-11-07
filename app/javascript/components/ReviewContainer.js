@@ -28,7 +28,8 @@ class ReviewContainer extends Component {
 
     return (
       <div>
-        <div className='reviewContainerReview'>
+        <div className='reviewContainerReview' 
+        >
           { this.renderReview() }
         </div>
         <div className='reviewContainerComment'>
@@ -53,6 +54,7 @@ class ReviewContainer extends Component {
           variant='contained'
           color="primary"
           className='reviewContainerSubmitButton'
+          style={ {  top: '22px', left: '10px' } }
           label={ (
             <FormattedMessage
               id='ReviewContainer.SubmitButton'
